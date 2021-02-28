@@ -9,7 +9,7 @@
           :close="close"
           class="hidden-sm-and-up"
         ></menu-button>
-        <h1> 宁职生鲜 </h1>
+        <h1>宁职生鲜</h1>
         <user-info></user-info>
       </div>
     </el-col>
@@ -32,17 +32,17 @@ export default {
       close: false,
     };
   },
-  methods:{
-    handler(){
-      this.$emit('buttonclick');
-    }
-  }
+  methods: {
+    handler() {
+      this.$emit("buttonclick");
+    },
+  },
 };
 </script>
 <style scoped>
-.container{
+.container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
 }

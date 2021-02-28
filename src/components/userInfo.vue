@@ -1,8 +1,8 @@
 <template>
-  <div style="display:flex;align-items:center;height:30%">
-    <el-avatar style="margin-right:.5rem;"> user </el-avatar>
+  <div style="display: flex; align-items: center; height: 30%">
+    <el-avatar style="margin-right: 0.5rem"> user </el-avatar>
     <el-dropdown :hide-on-click="false">
-      <span class="el-dropdown-link">
+      <span class="el-dropdown-link" style="color: #fff">
         用户<i class="el-icon-arrow-down el-icon--right"></i>
       </span>
       <template #dropdown>
